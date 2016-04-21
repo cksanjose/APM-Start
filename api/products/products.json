@@ -48,5 +48,15 @@
         "price": 35.95,
         "starRating": 4.6,
         "imageUrl": "http://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+    },
+    {
+        "productId": 12,
+        "productName": "Electric Band Saw with stand",
+        "productCode": "TIM-0190",
+        "releaseDate": "March 16, 2012",
+        "description": "Electric band saw which include a stand and rollers.",
+        "price": 35.95,
+        "starRating": 3.5,
+        "imageUrl": "http://openclipart.org/image/300px/svg_to_png/242427/160226_saw_blade.svg"
     }
 ]
