@@ -1,7 +1,7 @@
 import { Component, OnInit } from 'angular2/core';
 import { RouteParams, Router } from 'angular2/router';
 
-import { IProduct } from './product';
+import { IProduct } from './products';
 import { ProductService } from './product.service';
 import { StarComponent } from '../shared/star.component';
 
