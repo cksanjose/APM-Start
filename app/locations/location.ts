@@ -3,5 +3,7 @@
  */
 
 export interface ILocation {
-
+    locationId: number,
+    locationCode: string,
+    address: string
 }
