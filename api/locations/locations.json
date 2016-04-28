@@ -1,0 +1,22 @@
+[
+  {
+    "locationId": "1",
+    "locationCode": "MN123456",
+    "address": "123090 Maple Grove Road, Plymouth MN 55010"
+  },
+  {
+    "locationId": "2",
+    "locationCode": "MN570214",
+    "address": "515 International Blvd, Bloomington MN 55111"
+  },
+  {
+    "locationId": "3",
+    "locationCode": "IA32115",
+    "address": "616 Main Street, Des Moines IA 55002"
+  },
+  {
+    "locationId": "4",
+    "locationCode": "WI32611",
+    "address": "9009 Joseph Avenue, Hudson WI 552211"
+  }
+]
