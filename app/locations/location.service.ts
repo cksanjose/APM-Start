@@ -28,7 +28,6 @@ export class LocationService {
         return Observable.throw(error.json().error || 'Server error');
     }
 
-
     getLocation(id: number): Observable<ILocation> {
         return this.getLocations()
             .map((locations: ILocation[]) => locations.find(l => l.locationId === id));
