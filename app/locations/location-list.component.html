@@ -13,10 +13,8 @@
             </thead>
             <tbody>
                 <tr *ngFor="#location of locations">
-        <!--            <td><a [routerLink]="['ProductDetail', {id: product.productId}]">
-                        {{product.productName}}</a></td>-->
-                    <td>{{location.locationId}}</td>
-                    <td>{{location.locationCode}}</td>
+                    <td><a [routerLink]="['LocationDetail', {id: location.locationId}]">{{location.locationId}}</a></td>
+                    <td><a [routerLink]="['LocationDetail', {id: location.locationId}]">{{location.locationCode}}</a></td>
                     <td>{{location.address}}</td>
                 </tr>
             </tbody>

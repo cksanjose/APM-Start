@@ -7,7 +7,8 @@ import {ROUTER_PROVIDERS, RouteConfig, ROUTER_DIRECTIVES} from "angular2/router"
 import {WelcomeComponent} from "./home/welcome.component";
 import {ProductDetailComponent} from "./products/product-detail.component";
 import {LocationListComponent} from "./locations/location-list.component";
-import {LocationService} from "./locations/location.service";   // Load all features
+import {LocationService} from "./locations/location.service";
+import {LocationDetailComponent} from "./locations/location-detail.component";   // Load all features
 
 @Component ({
     selector: "pm-app",
@@ -24,6 +25,7 @@ import {LocationService} from "./locations/location.service";   // Load all feat
     { path: '/products', name: 'Products', component: ProductListComponent },
     { path: '/product/:id', name: 'ProductDetail', component: ProductDetailComponent },
     { path: '/locations', name: 'Locations', component: LocationListComponent },
+    { path: '/location/:id', name: 'LocationDetail', component: LocationDetailComponent }
 ])
 
 export class AppComponent {
