@@ -2,22 +2,24 @@
     <div class='panel-heading' style='font-size:large'>
         {{pageTitle}}
     </div>
-    <table>
-        <thead>
-            <tr>
-                <th>Location Id</th>
-                <th>Code</th>
-                <th>Address</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="#location of locations">
-    <!--            <td><a [routerLink]="['ProductDetail', {id: product.productId}]">
-                    {{product.productName}}</a></td>-->
-                <td>{{location.locationId}}</td>
-                <td>{{location.code}}</td>
-                <td>{{location.address}}</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class='table-responsive'>
+        <table class='table'>
+            <thead>
+                <tr>
+                    <th>Location Id</th>
+                    <th>Code</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="#location of locations">
+        <!--            <td><a [routerLink]="['ProductDetail', {id: product.productId}]">
+                        {{product.productName}}</a></td>-->
+                    <td>{{location.locationId}}</td>
+                    <td>{{location.locationCode}}</td>
+                    <td>{{location.address}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
