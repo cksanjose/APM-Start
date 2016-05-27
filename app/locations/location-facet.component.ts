@@ -5,7 +5,7 @@ import {LocationService} from "./location.service";
  */
 
 @Component({
-    templateUrl: 'app/locations/location-facet.component.html'
+    templateUrl: `app/locations/location-facet.component.html`
 })
 
 export class LocationFacetComponent implements OnInit {

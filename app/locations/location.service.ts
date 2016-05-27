@@ -30,6 +30,7 @@ export class LocationService {
 
     getLocation(id: number): Observable<ILocation> {
         return this.getLocations()
-            .map((locations: ILocation[]) => locations.find(l => l.locationId === id));
+            .map((locations: ILocation[]) => locations.find(l => l.locationId === id))
+            .do(data => console.log("Location: " +  JSON.stringify(data)));
     }
 }

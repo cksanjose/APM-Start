@@ -1,6 +1,6 @@
 [
   {
-    "locationId": "1",
+    "locationId": 1,
     "locationCode": "MN123456",
     "address": "123090 Maple Grove Road",
     "city": "Plymouth",
@@ -8,7 +8,7 @@
     "zipcode": "55010"
   },
   {
-    "locationId": "2",
+    "locationId": 2,
     "locationCode": "MN570214",
     "address": "515 International Blvd",
     "city": "Bloomington",
@@ -16,7 +16,7 @@
     "zipcode": "55111"
   },
   {
-    "locationId": "3",
+    "locationId": 3,
     "locationCode": "IA32115",
     "address": "616 Main Street",
     "city": "Des Moines",
@@ -24,7 +24,7 @@
     "zipcode": "55002"
   },
   {
-    "locationId": "4",
+    "locationId": 4,
     "locationCode": "WI32611",
     "address": "9009 Joseph Avenue",
     "city": "Hudson",
@@ -32,7 +32,7 @@
     "zipcode": "552211"
   },
   {
-    "locationId": "5",
+    "locationId": 5,
     "locationCode": "WI55101",
     "address": "233 Robbins Blvd",
     "city": "Eau Claire",
@@ -40,7 +40,7 @@
     "zipcode": "555101"
   },
   {
-    "locationId": "6",
+    "locationId": 6,
     "locationCode": "IL52616",
     "address": "702 Plain Avenue",
     "city": "Champaign",

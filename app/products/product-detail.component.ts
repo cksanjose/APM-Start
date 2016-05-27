@@ -5,7 +5,7 @@ import { StarComponent } from '../shared/star.component';
 import { IProduct } from "./products";
 
 @Component({
-    templateUrl: 'app/products/product-detail.component.html',
+    templateUrl: `app/products/product-detail.component.html`,
     directives: [StarComponent]
 })
 export class ProductDetailComponent implements OnInit {

@@ -51,7 +51,7 @@ System.register(['angular2/core', 'angular2/router', './product.service', '../sh
                 };
                 ProductDetailComponent = __decorate([
                     core_1.Component({
-                        templateUrl: 'app/products/product-detail.component.html',
+                        templateUrl: "app/products/product-detail.component.html",
                         directives: [star_component_1.StarComponent]
                     }), 
                     __metadata('design:paramtypes', [product_service_1.ProductService, router_1.Router, router_1.RouteParams])

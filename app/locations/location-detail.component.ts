@@ -7,7 +7,7 @@ import {ILocation} from "./location";
  */
 
 @Component({
-    templateUrl: 'app/locations/location-detail.component.html'
+    templateUrl: `app/locations/location-detail.component.html`
 })
 
 export class LocationDetailComponent implements OnInit {
